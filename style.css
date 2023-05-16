@@ -1,0 +1,88 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+}
+body{
+    background-color: #cbe5f8;           
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+main{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;    
+}
+.contenido{
+    display: flex;    
+    width: 50%;    
+    text-align: center;     
+    margin: 0  auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.in-texto{
+    display: flex;
+    text-transform: lowercase;
+    margin: 15px;
+    padding: 10px;      
+    border: none;
+    border-radius: 25px;   
+}
+.in-texto:focus{
+    outline: none;
+}
+.informacion{
+    margin-left: 15px;
+    color: skygray;
+    font-size: 10px;
+    
+}
+.out-texto{
+    display: flex;
+    text-transform: lowercase;
+    background-image: url("imagenes/incognita.png");
+    background-repeat: no-repeat;
+    margin: 15px;
+    padding: 15px;   
+    background-color: white;
+    border: none;
+    border-radius: 25px;        
+}
+.out-texto:focus{
+    outline: none;
+}
+.botones{    
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 30px;
+
+}
+.btn-encriptar{
+    border: 1px solid #0A3871; 
+    padding: 15px; 
+    background-color: #0A3871; 
+    color: #ffffff;      
+    border-radius: 50px;
+    margin: 8px;
+}
+.btn-desencriptar{
+    border: 1px solid #0A3871; 
+    padding: 10px; 
+    background-color: #FFFfff; 
+    color: #0A3871;     
+    border-radius: 50px;
+    margin: 8px;
+}
+
+.copy {
+    background-color: black; 
+    color: #FFFFFF; 
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  

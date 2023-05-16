@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Encriptador de texto - Alura</title>
+</head>
+<body>
+    <header>        
+        <img class="logo" src="imagenes/logo.png" alt="LogoAlura">        
+    </header>
+    <main>
+        <section class="contenido">  
+            <div class="texto">          
+                <textarea class="in-texto" cols="70" rows="30" required placeholder="Ingrese el texto aquí"></textarea>
+                <h5 class="informacion">Solo letras minusculas y sin acento.</h5>    
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>   
+                </div>  
+            </div> 
+
+            <div class="texto">
+                <textarea id="textArea" class="out-texto" cols="40" rows="30"  required ></textarea>                
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnCopiar()">Copiar</button>                      
+                </div>
+            </div>    
+        </section>     
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p class="copy">&copy 2023 Jhosep Pajuelo.</p>        
+    </footer>    
+</body>
+</html>
