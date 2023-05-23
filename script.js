@@ -30,6 +30,7 @@ function btnDesencriptar(){
     const textoDesencriptado = desencriptar(inputTexto.value);
     outputTexto.value = textoDesencriptado;
     inputTexto.value = "";
+    outputTexto.style.backgroundImage = "none";
 }
 
 function desencriptar(stringdesencriptado){
@@ -53,4 +54,5 @@ function copiarPapelera() {
     textarea.select();
     document.execCommand("copy");
     textarea.blur();
+    alert("Texto copiado")
 }
