@@ -54,5 +54,5 @@ function copiarPapelera() {
     textarea.select();
     document.execCommand("copy");
     textarea.blur();
-    alert("Texto copiado")
+    alert("Texto copiado!")
 }
