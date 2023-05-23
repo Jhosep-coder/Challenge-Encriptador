@@ -5,6 +5,7 @@
 body{
     background-color: #cbe5f8;           
 }
+
 .logo{
     padding-top: 20px;
     padding-left: 20px;
@@ -21,7 +22,7 @@ main{
     display: flex;
     margin-top: 15px;
     margin-left: 15px;    
-    justify-content: center
+    justify-content: center;
 }
 .contenido{
     display: flex;    
